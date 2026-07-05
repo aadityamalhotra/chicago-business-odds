@@ -1,0 +1,12 @@
+# environments
+chicago-biz-env/
+.env
+
+# raw data (can be large — regenerate via Phase 1 pull scripts instead)
+data/raw/*
+!data/raw/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
